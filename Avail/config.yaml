@@ -58,7 +58,7 @@ dht_parallelization_limit = 20
 put_batch_size = 100
 # Number of seconds to postpone block processing after the block finalized message arrives. (default: 0).
 block_processing_delay = 0
-# Starting block of the syncing process. Omitting it will disable syncing. (default: None).
+# Starting block of the syncing process. Omitting it will disable syncing.(default: None).
 sync_start_block = 0
 # Enable or disable synchronizing finality. If disabled, finality is assumed to be verified until the 
 # starting block at the point the LC is started and is only checked for new blocks. (default: true)
